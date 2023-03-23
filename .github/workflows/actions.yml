@@ -10,6 +10,7 @@ jobs:
         run: |
           pwd 
           ls -a
+          echo $GITHUB_SHA
       - name: Chekcout
         uses: actions/checkout@v3
       - name: List After Files Check
